@@ -18,3 +18,12 @@ if door == "1"
 	else
 		puts "Well, doing %s is probably better. Bear runs away." % bear
 	end
+
+elsif door == "2"
+	puts "You stare into the endless abyss at Cthulhu's retina."
+	puts  "1. Blueberries."
+	puts "2. Yellow jacket clothespins."
+	puts "3. Understanding revovlers yelling melodies."
+
+	print "> "
+	insainity = 
