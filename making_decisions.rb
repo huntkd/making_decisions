@@ -26,4 +26,14 @@ elsif door == "2"
 	puts "3. Understanding revovlers yelling melodies."
 
 	print "> "
-	insainity = 
+	insainity = $stdin.gets.chomp
+	
+	if insanity == "1" || insanity == "2"
+		puts "Your body survives powered by a mind of jello. Good job!"
+	else
+		puts "The insanity rots your eyes into a pool of muck. Good job!"
+	end
+	
+else
+	puts "You stumble around and fall on a knife and die. Good job!"
+end
